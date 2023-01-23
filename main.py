@@ -3,9 +3,6 @@ from snake import Snake, Writer, Scorekeeper
 from food import Fodder, TimeBomb, MineField
 import time
 
-color_set = ['red', 'yellow', 'orange', 'green', 'blue']
-
-
 class Game:
     def __init__(self):
         # Set game boundaries/dimensions
